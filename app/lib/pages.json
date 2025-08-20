@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "href": "/",
+      "label": "Home"
+    },
+    {
+      "href": "/pokemons",
+      "label": "Pokemons"
+    },
+    {
+      "href": "/random",
+      "label": "RandomTestLink"
+    }
+  ]
+}
