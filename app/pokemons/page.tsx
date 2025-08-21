@@ -8,7 +8,7 @@ export default async function PokemonPage() {
   const { results } = await fetchAllPokemons();
 
   return (
-    <ul className="text-amber-100 grid gap-4 grid-cols-[repeat(auto-fit,minmax(30ch,1fr))]">
+    <ul className="text-gray-800 dark:text-amber-100 grid gap-4 grid-cols-[repeat(auto-fit,minmax(30ch,1fr))]">
      {/* TODO: Make first char uppercase */}
      {/* takes pokemons from result, maps name and sends to fetch single pokemon */}
       {await Promise.all(
